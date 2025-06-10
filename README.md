@@ -31,8 +31,8 @@ A modern React application for browsing and searching movies, built with React, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/react-movies-clean.git
-   cd react-movies-clean
+   git clone https://github.com/Mythsoul/MovieInfo.git
+   cd MovieInfo
    ```
 
 2. Install dependencies:
@@ -72,10 +72,14 @@ src/
 - **Appwrite Integration:** Tracks search history and trending searches
 - **Responsive Design:** Works seamlessly on desktop and mobile devices
 
+
+
+## Appwrite setup 
+   - Create a project on Appwrite 
+   - Create a database 
+   - Create a collection 
+   - Create attributes : searchTerm string , count number, movie_id string, poster_url string
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
